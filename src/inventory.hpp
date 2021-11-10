@@ -61,6 +61,19 @@ class Inventory
 			return tags;
 		}
 
+		int get_tag_count ()
+		{
+			int erased = 0;
+			for (int i = 0; i < tag_amount; i++)
+			{
+				//exclude empty tags
+				if (TAGS[i] == "")
+					erased++;
+			}
+
+			return this->tag_amount - erased;
+		}
+
 		//items
 		void add_item (Item item)
 		{
