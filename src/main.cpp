@@ -70,13 +70,13 @@ int main()
 
 	name    = "Parcial_Analisis";
 	address = "B202";
-	hour    = "2:00 PM";
+	hour    = "2:00PM";
 	date    = "10-11-2021";
 	bk.add_event (name, address, hour, date);
 
 	name    = "Cumpleaños_Mario";
 	address = "Cll 10 #24-20";
-	hour    = "7:30 PM";
+	hour    = "7:30PM";
 	date    = "02-10-2021";
 	bk.add_event (name, address, hour, date);
 
